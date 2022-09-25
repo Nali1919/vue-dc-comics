@@ -18,7 +18,7 @@
          <span>Comic SHop Locator</span>
         </div>
         <div class="card">
-         <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+         <img class="img-svg" src="../assets/img/buy-dc-power-visa.svg" alt="">
          <span>DC power Visa</span>
         </div>
     </div>
@@ -50,9 +50,14 @@ name : 'SecondSectionComponent'
     img{
         height: 50px;
     }
+    .img-svg{
+    width:60px;
+
+   }
    }
    .card:hover{
     cursor: pointer;
     opacity: 0.7;
    }
+   
 </style>
